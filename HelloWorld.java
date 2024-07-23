@@ -48,10 +48,16 @@ public class HelloWorld {
 }
 
 class HelloVariableUser {
+
     HelloVariableUser() {
         // this is constructor this is mostly used to initialise the variables that will
         // be used in this class.
-        // and you would have noticed one thing that
+        // and you would have noticed one thing that there will be one .class file
+        // generated for all the classes that we write.
+        // it doesn't matter if we write all classes in one file or all classes in
+        // separate files it will be like that always .class files will be generated
+        // automatically for all the classes.
+
     }
 
     public void printableMethod(int number, char character, long numberButLong, float decimalNumbers,
