@@ -11,6 +11,12 @@ public class treeUser {
         firstTree.insertNode(10);
         firstTree.insertNode(18);
         firstTree.insertNode(6);
+
+        firstTree.preOrdertraversal();
+        System.out.println();
         firstTree.inOrdertraversal();
+        System.out.println();
+        firstTree.postOrdertraversal();
+        System.out.println();
     }
 }
